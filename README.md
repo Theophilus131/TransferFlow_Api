@@ -335,29 +335,6 @@ SPRING_PROFILE=prod
 - **Bucket4j** - Rate limiting
 - **SpringDoc OpenAPI** - API documentation
 
-##  Deployment
-
-### Deploy to Render
-
-1. Create account at [Render.com](https://render.com)
-
-2. Create new Web Service
-
-3. Connect your GitHub repository
-
-4. Configure:
-    - **Build Command:** `mvn clean package`
-    - **Start Command:** `java -jar target/TransactFlow-0.0.1-SNAPSHOT.jar`
-
-5. Add Environment Variables in Render dashboard
-
-6. Deploy!
-
-
 ##  Author
 
 Your Theophilus Umar - theophilusumar27@gmail.com
-
-##  Contributing
-
-Contributions welcome! Please open an issue or submit a pull request.
